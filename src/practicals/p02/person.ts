@@ -1,8 +1,8 @@
 export class Person {
         firstname : string ;
         lastname : string ;
-        private COUNTRY : string ;
-        age : number
+         COUNTRY : string ;
+        private age : number
 
 
     constructor (firstname : string, lastname : string,age : number){
