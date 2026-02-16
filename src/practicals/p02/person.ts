@@ -4,8 +4,8 @@ export class Person {
         static COUNTRY : string = 'THAILAND' ;
         private age : number = 0 ;
 
-    getFullName(): void {
-    console.log(`${this.firstname} ${this.lastname}`)
+    getFullName(): string {
+    return`${this.firstname} ${this.lastname}`
 }
     setAge(age:number){
     this.age = age
